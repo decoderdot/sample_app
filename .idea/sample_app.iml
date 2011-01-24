@@ -12,6 +12,12 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
+        <dependency name="annotate" version="2.4.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="annotate-models" version="1.0.4" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -24,25 +30,7 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="rspec" version="2.3.0" bound="EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-rails" version="2.3.0" bound="EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" lib="sqlite3" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="webrat" version="0.7.1" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
@@ -86,6 +74,8 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.5.0, C:/Ruby192/lib/ruby/gems/1.9.1/gems/i18n-0.5.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-mount (v0.6.13, C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/tzinfo-0.3.24)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] annotate-models (v1.0.4, C:/Ruby192/lib/ruby/gems/1.9.1/gems/annotate-models-1.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] annotate (v2.4.0, C:/Ruby192/lib/ruby/gems/1.9.1/gems/annotate-2.4.0)" level="application" />
   </component>
 </module>
 
