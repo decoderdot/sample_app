@@ -7,7 +7,6 @@ gem 'rails', '3.0.3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 
 group :production, :staging do
-  gem "pg"
 end
 
 group :development do
